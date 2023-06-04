@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
 import Router from "next/router";
-
+{/* <style>
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis:wght@500&family=Monoton&family=Roboto+Condensed:wght@700&family=Source+Code+Pro:wght@300&display=swap');
+</style> */}
 export default function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -13,6 +15,10 @@ export default function Menu() {
 };
   return (
     <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <div className="mb-1 text-xl text-white-900" style={{fontFamily:'monospace', fontSize:'160%'}}>
+            Culturalia 
+      </div>
+      {/* style={{fontFamily: "Monoton" }}>Culturalia */}
       <div>
         <button onClick={navigateToHome}>Inicio</button>
       </div>

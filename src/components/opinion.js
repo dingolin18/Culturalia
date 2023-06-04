@@ -9,7 +9,7 @@ export default function Opinion({ title, description, evento, opinion }) {
       // gridTemplate: "izquierda derecha"
     }} >
          
-        <div className="izquierda" style={{ width: "40vw", justifySelf: "left" }}>
+        <div className="izquierda"  style={{ width: "40vw", justifySelf: "left" }}>
           <h1 style={{ "margin-top": "12px", "margin-bottom": "12px" }}>{title}</h1>
           <p>{description}</p>
         </div>
@@ -19,7 +19,7 @@ export default function Opinion({ title, description, evento, opinion }) {
           <h1 style={{ "margin-top": "12px", "margin-bottom": "12px" }}>{evento}</h1>
           <p>{opinion}</p>
         </div>
-        
+
     </div>
     )
   ;
